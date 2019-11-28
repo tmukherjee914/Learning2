@@ -12,7 +12,7 @@ public class PropertiesFile {
 		Properties prop = new Properties();
 		InputStream input;
 		try {
-			input = new FileInputStream("/Users/test/eclipse-workspace/Demo_amazon2/src/test/resources/config/config.properties");
+			input = new FileInputStream("src/test/resources/config/config.properties");
 			prop.load(input);		
 			
 		} 

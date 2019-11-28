@@ -49,7 +49,7 @@ public class Runnerclass {
   public static void close()
   {
 	  
-	  //driver.quit();
+	  driver.quit();
   }
   
   public static void pageObjectSetup()

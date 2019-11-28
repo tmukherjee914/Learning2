@@ -40,16 +40,15 @@ formatter.match({
   "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 1702411794,
+  "duration": 4427343473,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.Verify_page_title()"
 });
 formatter.result({
-  "duration": 302452204,
-  "error_message": "org.assertj.core.api.SoftAssertionError: \nThe following assertion failed:\n1) \nExpecting:\n \u003c\"Robot Check\"\u003e\nto be equal to:\n \u003c\"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"\u003e\nignoring case considerations\nat LoginStepDefinitions.Verify_page_title(LoginStepDefinitions.java:41)\n\n\tat org.assertj.core.api.SoftAssertions.assertAll(SoftAssertions.java:158)\n\tat com.amazon.stepdefinitions.LoginStepDefinitions.Verify_page_title(LoginStepDefinitions.java:44)\n\tat ✽.Then Verify page title(LoginAmaz.feature:8)\n",
-  "status": "failed"
+  "duration": 432988784,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 12,
@@ -104,35 +103,35 @@ formatter.match({
   "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
 });
 formatter.result({
-  "duration": 2101890429,
+  "duration": 1784712032,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
 });
 formatter.result({
-  "duration": 1798951555,
+  "duration": 1896747745,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_enter_email()"
 });
 formatter.result({
-  "duration": 383859629,
+  "duration": 407548339,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.clicks_on_continue()"
 });
 formatter.result({
-  "duration": 1768510879,
+  "duration": 1075209195,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_enter_password()"
 });
 formatter.result({
-  "duration": 47273381,
+  "duration": 21240020,
   "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat com.sun.proxy.$Proxy22.sendKeys(Unknown Source)\n\tat com.amazon.stepdefinitions.LoginStepDefinitions.user_enter_password(LoginStepDefinitions.java:88)\n\tat ✽.And user enter password(LoginAmaz.feature:17)\n",
   "status": "failed"
 });
@@ -194,28 +193,28 @@ formatter.match({
   "location": "ItemSearchDefinition.user_is_on_Home_page()"
 });
 formatter.result({
-  "duration": 3098130660,
+  "duration": 2437042183,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_enter()"
 });
 formatter.result({
-  "duration": 14392980201,
+  "duration": 13136571853,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_select_on_third_option_from_the_list()"
 });
 formatter.result({
-  "duration": 2003575036,
+  "duration": 2007489920,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_should_navigates_to_item_detail_page()"
 });
 formatter.result({
-  "duration": 99920,
+  "duration": 91961,
   "status": "passed"
 });
 });
