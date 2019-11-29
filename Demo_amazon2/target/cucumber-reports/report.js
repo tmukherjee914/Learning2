@@ -40,14 +40,14 @@ formatter.match({
   "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 4427343473,
+  "duration": 4206468473,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.Verify_page_title()"
 });
 formatter.result({
-  "duration": 432988784,
+  "duration": 360082854,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,35 +103,35 @@ formatter.match({
   "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
 });
 formatter.result({
-  "duration": 1784712032,
+  "duration": 2173529126,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
 });
 formatter.result({
-  "duration": 1896747745,
+  "duration": 1272355620,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_enter_email()"
 });
 formatter.result({
-  "duration": 407548339,
+  "duration": 405025921,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.clicks_on_continue()"
 });
 formatter.result({
-  "duration": 1075209195,
+  "duration": 1594149703,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_enter_password()"
 });
 formatter.result({
-  "duration": 21240020,
+  "duration": 71597452,
   "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat com.sun.proxy.$Proxy22.sendKeys(Unknown Source)\n\tat com.amazon.stepdefinitions.LoginStepDefinitions.user_enter_password(LoginStepDefinitions.java:88)\n\tat ✽.And user enter password(LoginAmaz.feature:17)\n",
   "status": "failed"
 });
@@ -193,28 +193,28 @@ formatter.match({
   "location": "ItemSearchDefinition.user_is_on_Home_page()"
 });
 formatter.result({
-  "duration": 2437042183,
+  "duration": 3253611536,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_enter()"
 });
 formatter.result({
-  "duration": 13136571853,
+  "duration": 14416914258,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_select_on_third_option_from_the_list()"
 });
 formatter.result({
-  "duration": 2007489920,
+  "duration": 2000188681,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemSearchDefinition.user_should_navigates_to_item_detail_page()"
 });
 formatter.result({
-  "duration": 91961,
+  "duration": 88713,
   "status": "passed"
 });
 });
