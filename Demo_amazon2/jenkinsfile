@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Compile Stage') {
+        stage('Sourabh') {
          
             steps {
               
@@ -9,14 +9,14 @@ pipeline {
              
             }
         }
-        stage('Test') { 
+        stage('Abhishek') { 
             steps {
               
               sh 'mvn test'
               
         	}
         }
-        stage('Deploy') { 
+        stage('Trideep') { 
             steps {
             
               sh 'mvn deploy'
