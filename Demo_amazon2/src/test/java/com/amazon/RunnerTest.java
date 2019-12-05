@@ -29,7 +29,7 @@ plugin = {
 },
 monochrome = true)
 
-public class Runnerclass {
+public class RunnerTest {
 	public static LoginPageLocators loginPageInstance;
 	public static LoginPage2Locators loginPage;
 	public static ItemSearchLocator searchitem;

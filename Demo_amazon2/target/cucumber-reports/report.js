@@ -36,19 +36,13 @@ formatter.step({
   "name": "Verify page title",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 4206468473,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.Verify_page_title()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 360082854,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 12,
@@ -99,53 +93,33 @@ formatter.step({
   "name": "user should be logged into the application",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2173529126,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 1272355620,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_enter_email()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 405025921,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.clicks_on_continue()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 1594149703,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_enter_password()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 71597452,
-  "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat com.sun.proxy.$Proxy22.sendKeys(Unknown Source)\n\tat com.amazon.stepdefinitions.LoginStepDefinitions.user_enter_password(LoginStepDefinitions.java:88)\n\tat ✽.And user enter password(LoginAmaz.feature:17)\n",
-  "status": "failed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_click_on_Login()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_should_be_logged_into_the_application()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.uri("Search.feature");
 formatter.feature({
@@ -189,32 +163,20 @@ formatter.step({
   "name": "user should navigates to item detail page",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "ItemSearchDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 3253611536,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "ItemSearchDefinition.user_enter()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 14416914258,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "ItemSearchDefinition.user_select_on_third_option_from_the_list()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2000188681,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "ItemSearchDefinition.user_should_navigates_to_item_detail_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 88713,
-  "status": "passed"
+  "status": "undefined"
 });
 });

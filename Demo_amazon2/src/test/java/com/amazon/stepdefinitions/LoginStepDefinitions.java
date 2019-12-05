@@ -1,7 +1,7 @@
 package com.amazon.stepdefinitions;
 
-import static com.amazon.Runnerclass.loginPage;
-import static com.amazon.Runnerclass.loginPageInstance;
+import static com.amazon.RunnerTest.loginPage;
+import static com.amazon.RunnerTest.loginPageInstance;
 import static com.utilites.GenericDrivers.driver;
 
 import java.util.Properties;
