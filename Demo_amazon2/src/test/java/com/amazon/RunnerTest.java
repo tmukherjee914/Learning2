@@ -27,7 +27,9 @@ plugin = {
         "html:target/cucumber-reports",
         "json:target/test-results.json"
 },
-monochrome = true)
+monochrome = true,
+tags="@scen1, @scen2" )
+
 
 public class RunnerTest {
 	public static LoginPageLocators loginPageInstance;

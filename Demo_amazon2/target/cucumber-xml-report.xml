@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="3" time="0">
-<testcase classname="Amazon Login" name="Veriy title" time="0">
-<skipped><![CDATA[When The user is on the home page...........................................undefined
-Then Verify page title......................................................undefined
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="16.993745">
+<testcase classname="Amazon Login" name="Veriy title" time="8.256504">
+<system-out><![CDATA[When The user is on the home page...........................................passed
+Then Verify page title......................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Amazon Login" name="Successful Login" time="0">
-<skipped><![CDATA[Given The user is on the website page.......................................undefined
-When user clicks on the Login button........................................undefined
-And user enter email........................................................undefined
-And clicks on continue......................................................undefined
-And user enter password.....................................................undefined
-And user click on Login.....................................................undefined
-Then user should be logged into the application.............................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Search item" name="Search an item" time="0">
-<skipped><![CDATA[Given user is on Home page..................................................undefined
-When user enter keyward.....................................................undefined
-And user select on third option from the list...............................undefined
-Then user should navigates to item detail page..............................undefined
-]]></skipped>
+<testcase classname="Amazon Login" name="Successful Login" time="8.737241">
+<system-out><![CDATA[Given The user is on the website page.......................................passed
+When user clicks on the Login button........................................passed
+And user enter email........................................................passed
+And clicks on continue......................................................passed
+And user enter password.....................................................passed
+And user click on Login.....................................................passed
+Then user should be logged into the application.............................passed
+]]></system-out>
 </testcase>
 </testsuite>

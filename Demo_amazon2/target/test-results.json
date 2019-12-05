@@ -12,20 +12,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7954994668,
+              "status": "passed"
             },
             "line": 7,
             "name": "The user is on the home page",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 301508917,
+              "status": "passed"
             },
             "line": 8,
             "name": "Verify page title",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.Verify_page_title()"
+            },
             "keyword": "Then "
           }
         ],
@@ -46,65 +52,86 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 2254919971,
+              "status": "passed"
             },
             "line": 13,
             "name": "The user is on the website page",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1285450196,
+              "status": "passed"
             },
             "line": 14,
             "name": "user clicks on the Login button",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 353285648,
+              "status": "passed"
             },
             "line": 15,
             "name": "user enter email",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.user_enter_email()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1367811996,
+              "status": "passed"
             },
             "line": 16,
             "name": "clicks on continue",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.clicks_on_continue()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 148852764,
+              "status": "passed"
             },
             "line": 17,
             "name": "user enter password",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.user_enter_password()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3326899998,
+              "status": "passed"
             },
             "line": 18,
             "name": "user click on Login",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.user_click_on_Login()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 20205,
+              "status": "passed"
             },
             "line": 19,
             "name": "user should be logged into the application",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.user_should_be_logged_into_the_application()"
+            },
             "keyword": "Then "
           }
         ],
@@ -127,67 +154,5 @@
         "name": "@AmazonLogin"
       }
     ]
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 6,
-        "name": "Search an item",
-        "description": "",
-        "id": "search-item;search-an-item",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "user is on Home page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "user enter keyward",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "user select on third option from the list",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "user should navigates to item detail page",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@search"
-          }
-        ]
-      }
-    ],
-    "name": "Search item",
-    "description": "",
-    "id": "search-item",
-    "keyword": "Feature",
-    "uri": "Search.feature"
   }
 ]

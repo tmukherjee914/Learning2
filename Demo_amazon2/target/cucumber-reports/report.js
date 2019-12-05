@@ -36,13 +36,19 @@ formatter.step({
   "name": "Verify page title",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginStepDefinitions.The_user_is_on_the_home_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7954994668,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinitions.Verify_page_title()"
+});
+formatter.result({
+  "duration": 301508917,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 12,
@@ -93,90 +99,53 @@ formatter.step({
   "name": "user should be logged into the application",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.The_user_is_on_the_website_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2254919971,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.user_clicks_on_the_Login_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1285450196,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.user_enter_email()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 353285648,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.clicks_on_continue()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1367811996,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.user_enter_password()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 148852764,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.user_click_on_Login()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 3326899998,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginStepDefinitions.user_should_be_logged_into_the_application()"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.uri("Search.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Search item",
-  "description": "",
-  "id": "search-item",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "Search an item",
-  "description": "",
-  "id": "search-item;search-an-item",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@search"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "user is on Home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user enter keyward",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "user select on third option from the list",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "user should navigates to item detail page",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "duration": 20205,
+  "status": "passed"
 });
 });
