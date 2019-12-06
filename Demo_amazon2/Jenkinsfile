@@ -3,7 +3,7 @@ node{
 stage('SCM Checkout')
 {
   
-git 'https://github.com/tmukherjee914/Learning2'
+git 'https://github.com/tmukherjee914/Learning2/Demo_amazon2'
 }
 stage('Compile Package')
 {
