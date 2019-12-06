@@ -14,7 +14,7 @@ stage('Compile Package')
 }
   stage('Deploy')
 {
-  
+  rtMaven.run pom:pom.xml,goals;'clean install'
  
   
 }
