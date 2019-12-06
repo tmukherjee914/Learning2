@@ -16,7 +16,8 @@ stage('Compile Package')
 {
   
   def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
-  sh "${mvnHome}/Users/test/.jenkins/workspace/my_first_pipeline/Demo_amazon2/mvn clean install"
+  sh "${mvnHome}/Users/test/.jenkins/workspace/my_first_pipeline/Demo_amazon2"
+  sh 'mvn clean install'
   
 }
 }
