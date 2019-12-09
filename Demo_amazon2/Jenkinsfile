@@ -14,7 +14,7 @@ stage('Compile Package')
 }
   stage('Deploy')
 {
-  sh 'mvn -f otherdirectory/pom.xml clean install'
+  
   
 }
 }
