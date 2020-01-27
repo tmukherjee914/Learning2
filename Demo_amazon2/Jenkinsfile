@@ -6,10 +6,8 @@ stage('SCM Checkout')
 git 'https://github.com/tmukherjee914/Learning2.git'
 }
 stage('Compile')
-{
-  //cd /Users/test/git/Learning2/Demo_amazon2
+def mvn_version = 'M3'
+withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
   sh "mvn clean install"
-  
 }
-  
 }
