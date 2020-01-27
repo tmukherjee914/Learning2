@@ -1,14 +1,8 @@
 node{
   
-stage('SCM Checkout')
-{
-  
-git 'https://github.com/tmukherjee914/Learning2.git'
-  mvn -version
-}
-stage('Compile')
-def mvn_version = 'M3'
-withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
+
+stage('Run')
+  {
   sh "mvn clean install"
 }
 }
