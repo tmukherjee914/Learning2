@@ -1,8 +1,7 @@
 node{
-  
-
 stage('Run')
   {
-  sh "mvn clean install"
+  sh "mvn -f Learning2/Demo_amazon2/pom.xml clean install"
 }
+
 }
