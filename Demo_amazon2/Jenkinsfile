@@ -5,15 +5,11 @@ stage('SCM Checkout')
   
 git 'https://github.com/tmukherjee914/Learning2.git'
 }
-stage('Compile Package')
+stage('Compile')
 {
   cd /Users/test/git/Learning2/Demo_amazon2
   sh "mvn clean install"
   
 }
-  stage('Deploy')
-{
   
-  
-}
 }
